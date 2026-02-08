@@ -1,0 +1,37 @@
+.tab-osd-sensors .osd-sensors-wrapper {
+    display: flex;
+    height: 100%;
+    gap: 16px;
+}
+
+.subtab__header--vertical {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    background: #eee;
+    border-right: 1px solid #ccc;
+}
+
+.subtab__header--vertical .subtab__header_label {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.subtab__header--vertical .subtab__header_label--current {
+    font-weight: bold;
+    background: #dcdcdc;
+}
+
+.tab-osd-sensors .subtab__body {
+    flex: 1;
+    padding: 30px;
+    overflow: auto;
+}
+
+.tab-osd-sensors .subtab__content {
+    display: none;
+}
+
+.tab-osd-sensors .subtab__content--current {
+    display: block;
+}

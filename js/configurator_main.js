@@ -257,6 +257,10 @@ $(function() {
                             require('./../tabs/sensors');
                             TABS.sensors.initialize(content_ready);
                             break;
+                        case 'osd_sensors':
+                            require('./../tabs/osd_sensors');
+                            TABS.osd_sensors.initialize(content_ready);
+                            break;
                         case 'logging':
                             require('./../tabs/logging');
                             TABS.logging.initialize(content_ready);
@@ -633,4 +637,3 @@ String.prototype.format = function () {
         return args[i] !== void 0 ? args[i] : "{" + (i - args.length) + "}";
     });
 };
-

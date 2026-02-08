@@ -2874,6 +2874,9 @@
     "tabOSD": {
         "message": "OSD"
     },
+    "tabOSDSensors": {
+        "message": "OSD + Sensors"
+    },
     "configurationSensors": {
         "message": "Sensors & Buses"
     },
